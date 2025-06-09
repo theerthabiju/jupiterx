@@ -7573,7 +7573,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 
 input {
@@ -12652,10 +12652,12 @@ header.header-three.sticky .has-dropdown.mega-menu:hover .rts-mega-menu {
 .has-dropdown.mega-menu > a {
   position: relative;
 }
-
+.oneofimg{
+  height: 450px;
+  width: 100%;
+}
 .has-dropdown::after {
   position: absolute;
-  content: "\f078";
   right: -22px;
   top: 51%;
   transform: translateY(-50%);
@@ -12668,7 +12670,6 @@ header.header-three.sticky .has-dropdown.mega-menu:hover .rts-mega-menu {
 
 .has-dropdown.mega-menu > a::after {
   position: absolute;
-  content: "\f078";
   right: -22px;
   top: 53%;
   transform: translateY(-50%);
@@ -13263,7 +13264,6 @@ header.header-two .menu-item-open > a {
 }
 .nav-area .has-demo-down > a::after {
   position: absolute;
-  content: "\f078";
   right: -22px;
   top: 51%;
   transform: translateY(-50%);
@@ -14706,7 +14706,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .rts-breadcrumb-area.contact-bd {
-  background-image: url(../images/banner/001.jpg);
+  background-image: url(../images/about/about1\ -\ Edited.png);
 }
 
 .demo-1.why-choose-us-area .vedio-icone .video-play-button {
@@ -24029,14 +24029,7 @@ hr.history {
   color: #fff;
 }
 
-.rts-company-storyhear {
-  /* TIMELINE
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  /* EFFECTS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  /* GENERAL MEDIA QUERIES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-}
+
 .rts-company-storyhear .intro {
   background: #FFE4C4;
   padding: 100px 0;
@@ -24596,9 +24589,7 @@ hr.history {
   position: relative;
 }
 
-.shop-body {
-  /* Reset style for input range */
-}
+
 .shop-body .rts-single-wized {
   padding: 25px;
 }
@@ -25762,7 +25753,7 @@ hr.history {
   background: linear-gradient(180deg, #0C0A0A 0%, rgba(12, 10, 10, 0) 100%);
   -webkit-background-clip: text;
   opacity: 0.05;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: rgb(184, 184, 184);
